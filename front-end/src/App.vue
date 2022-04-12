@@ -14,7 +14,8 @@
     <router-view />
   </div>
   <div class="footer">
-    <router-link to="/admin">Admin</router-link>
+    <router-link to="/admin">Upload ||  </router-link>
+    <a href="https://github.com/BYUCS260/museum-vsolgere" target=_blank>  Github</a>
   </div>
 </div>
 </template>
@@ -58,7 +59,7 @@ body {
   height: 50px;
   padding: 20px 100px 0px 100px;
   background: #e3e3e3;
-  font-size: 12px;
+  font-size: 20px;
 }
 
 .footer a {
